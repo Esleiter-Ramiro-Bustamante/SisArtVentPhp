@@ -38,7 +38,7 @@ function cancelarform() {
     mostrarform(false);
 }
 
-//Función Listar
+//Función Listar usando data table y crea los botones para realizar reportes pdf,excel,csv etc.
 function listar() {
     tabla = $('#tbllistado').dataTable({
         "aProcessing": true, //Activamos el procesamiento del datatables

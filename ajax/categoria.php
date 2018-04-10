@@ -4,7 +4,7 @@ require_once "../modelos/Categoria.php";
 $categoria=new Categoria();
 
    $idcategoria=isset($_POST["idcategoria"])? limpiarCadena($_POST["idcategoria"]):"";
-   //operador ternario :? es igual a un if 
+   //operador ternario :? 
 $nombre=isset($_POST["nombre"])? limpiarCadena($_POST["nombre"]):"";
 $descripcion=isset($_POST["descripcion"])? limpiarCadena($_POST["descripcion"]):"";
 
@@ -12,7 +12,7 @@ switch ($_GET["op"]){
 	case 'guardaryeditar':
 		if (empty($idcategoria)){
 			$rspta=$categoria->insertar($nombre,$descripcion);
-			echo $rspta ? "Categoría registrada" : "Categoría no se pudo registrar";
+			echo $rspta ? "<p align='center'>Categoría registrada</p>" : "<p align='center'>Categoría no se pudo registrar</p>";
 		}
 		else {
 			$rspta=$categoria->editar($idcategoria,$nombre,$descripcion);

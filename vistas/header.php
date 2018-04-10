@@ -18,6 +18,11 @@
     <link rel="apple-touch-icon" href="../public/img/apple-touch-icon.png">
     <link rel="shortcut icon" href="../public/img/favicon.ico">
 
+    <!-- DATA-TABLES -->
+    <link rel="stylesheet" href="../public/datatables/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="../public/datatables/buttons.dataTables.min.css">
+    <link rel="stylesheet" href="../public/datatables/responsive.dataTables.min.css">
+
   </head>
   <body class="hold-transition skin-blue sidebar-mini">
     <div class="wrapper">
@@ -27,9 +32,9 @@
         <!-- Logo -->
         <a href="index2.html" class="logo">
           <!-- mini logo for sidebar mini 50x50 pixels -->
-          <span class="logo-mini"><b>IT</b>Ventas</span>
+          <span class="logo-mini"><b>{Code}Panda</b>Ventas</span>
           <!-- logo for regular state and mobile devices -->
-          <span class="logo-lg"><b>ITVentas</b></span>
+          <span class="logo-lg"><b>{Code}Panda</b></span>
         </a>
 
         <!-- Header Navbar: style can be found in header.less -->
@@ -52,7 +57,7 @@
                 <ul class="dropdown-menu">
                   <!-- User image -->
                   <li class="user-header">
-                    <img src="dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
+                    <img src="../public/dist/img/naruto.gif" class="img-circle" alt="User Image">
                     <p>
                       <a href="https://github.com/Esleiter-Ramiro-Bustamante " style="color:white;">
                        https://github.com/Esleiter-Ramiro-Bustamante</a> 
